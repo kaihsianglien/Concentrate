@@ -1,2 +1,2 @@
 # Concentrate  
-A flip card memory game practice
+A flip card memory game
