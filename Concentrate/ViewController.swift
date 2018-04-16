@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         if let cardNumber = cardButtons.index(of: sender) {
             //if all cards are match, then game should be finished
             if game.chooseCard(at: cardNumber) == true {
-                flipCountLabel.text = "Game Complete!"
+                flipCountLabel.text = "Game Complete with \(flipCount) flips!"
             }
             updateViewFromModel()
         } else {
